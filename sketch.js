@@ -3,25 +3,25 @@ const trabajos = [
         id: 1,
         photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/TOP1.webp",
         title: "TopCycle - Diseño Recidual",
-        description: "Ergonomía y Factores Humanos, con Prof. Claudio Ribalta"
+        description: "Proyecto III, con Prof. Clarisa Menteguiaga"
     },
     {
         id: 2,
         photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/Magicake.webp",
         title: "MagiCake:Love - Set de cartas",
-        description: "Procesos y Prototipos I, con Prof. Pamela Fuentes"
+        description: "Representación Conceptual, con Prof. Grace Mallea"
     },
     {
         id: 3,
         photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/Sensacional.webp",
         title: "Sensacional - Diseño de Imagen Corporativa",
-        description: "Proyecto II, con Prof. Paula Ron"
+        description: "Procesos y Prototipos I, con Prof. Pamela Fuentes"
     },
     {
         id: 4,
         photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/Lesbian.webpp",
         title: "The Lesbian Avengers - Infografía + Fanzine + Objeto sobre Movimientos Sociales",
-        description: "Proyecto III, con Prof. Pamela Gatica"
+        description: "Proyecto III, con Prof. Clarisa Menteguiaga"
     }
 ];
 
