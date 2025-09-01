@@ -1,3 +1,34 @@
+const trabajitos = [
+    {
+        photo:
+        tittle: "TopCycle - Diseño Residual"
+        description: "Entrega de Proyecto III 
+    },
+    {
+        photo:
+        tittle: "MagiCake:Love - Set de cartas"
+        description: 
+    },
+    {
+        photo:
+        tittle:
+        description: 
+    },
+    {
+        photo:
+        tittle:
+        description: 
+    },
+
+
+
+
+
+
+
+
+
+
 const datos = [
     {
         id: 1,
