@@ -1,6 +1,6 @@
 const trabajitos = [
     {
-        photo: "https://picsum.photos/id/151/200/300",
+        photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/TOP1.webp",
         title: "TopCycle - Diseño Residual",
         description: "Entrega de Proyecto III, con Prof. Clarisa Menteguiaga...."
     },
@@ -10,12 +10,12 @@ const trabajitos = [
         description: "Trabajo de Configuración Vi, con Prof. Perea."
     },
     {
-        photo: "https://picsum.photos/id/96/400/300",
-        title: "Sensacional - Identidad de Marca",
+        photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/Sensacional.webp",
+        title: "Sensacional - Diseño de Imagen Corporativa",
         description: "Trabajo de Configuración Visual I, con Prof. Pradenas."
     },
     {
-        photo: "https://picsum.photos/id/104/400/300",
+        photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/The%20Lesbian%20Avengers.webp",
         title: "The Lesbian Avengers - Infografía + Fanzine + Objeto sobre Movimientos Sociales",
         description: "Trabajo de Configuración Visual I, con Prof. Otro."
     }            
