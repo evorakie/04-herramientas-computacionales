@@ -89,3 +89,9 @@ div#portafolio div {
 div#portafolio div img{
     width: 100%;
 }
+div#final{
+    padding: 1rem;
+    clear: both;
+    text-align: center
+     
+}
