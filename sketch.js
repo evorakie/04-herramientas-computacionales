@@ -18,13 +18,8 @@ const trabajitos = [
         photo: "https://picsum.photos/id/272/200/300"
         tittle: "The Lesbian Avengers - Infografía + Fanzine sobre Movimientos Sociales"
         description: 
-    },
-
-
-
-
-
-
+    }
+]
 
 
 
@@ -268,8 +263,8 @@ function setup() {
     otrxs.forEach((x)=>{
         document.querySelector("#otredad").innerHTML += `<div><a href="${x.cuenta}"><img src="${x.foto}" title="${x.esperado}"></a></div>`;
     });
-    //Copy-paste y arreglín
-     trabajitos.forEach((x)=>{
+    //Copy-paste, y arreglín
+    trabajitos.forEach((x)=>{
         document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
     });
     //Ahora vuelvo al p5.js
