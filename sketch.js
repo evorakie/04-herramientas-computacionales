@@ -1,24 +1,24 @@
 const trabajitos = [
     {
-        photo: "https://picsum.photos/id/151/200/300"
-        tittle: "TopCycle - Diseño Residual"
-        description: "Entrega de Proyecto III, con Prof. Clarisa Menteguiaga..."
+        photo: "https://picsum.photos/id/151/200/300",
+        title: "TopCycle - Diseño Residual",
+        description: "Entrega de Proyecto III, con Prof. Clarisa Menteguiaga...."
     },
     {
-        photo: "https://picsum.photos/id/175/200/300"
-        tittle: "MagiCake:Love - Set de cartas"
-        description: 
+        photo: "https://picsum.photos/id/175/200/300",
+        title: "MagiCake:Love - Set de cartas",
+        description: "Trabajo de Configuración Vi, con Prof. Perea."
     },
     {
-        photo:"https://picsum.photos/id/252/200/300"
-        tittle: "Sensacional - Identidad de Marca"
-        description: "Propuesta de identidad gráfica 
+        photo: "https://picsum.photos/id/96/400/300",
+        title: "Sensacional - Identidad de Marca",
+        description: "Trabajo de Configuración Visual I, con Prof. Pradenas."
     },
     {
-        photo: "https://picsum.photos/id/272/200/300"
-        tittle: "The Lesbian Avengers - Infografía + Fanzine sobre Movimientos Sociales"
-        description: 
-    }
+        photo: "https://picsum.photos/id/104/400/300",
+        title: "The Lesbian Avengers - Infografía + Fanzine sobre Movimientos Sociales",
+        description: "Trabajo de Configuración Visual I, con Prof. Otro."
+    }            
 ]
 
 
@@ -236,7 +236,7 @@ var otrxs = [];
 
 
 datos.forEach((x) => {
-    if (x.nombre == "Sayen Padilla") {
+    if (x.nombre == "Martina Urzúa") {
         yo = x;
     } else {
         otrxs.push(x);
@@ -267,6 +267,7 @@ function setup() {
     trabajitos.forEach((x)=>{
         document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
     });
+
     //Ahora vuelvo al p5.js
     noStroke();
 }
@@ -279,16 +280,20 @@ function draw() {
     shininess(50);
     metalness(1);
 
-    // Add shapes.
+    // Ojo con el push()
     push();
     fill("red");
     translate(0, -valor / 4, -valor / 7);
     sphere(valor / 4);
     pop();
+    // Ojo con el pop()
+    // Ojo con el push()
     push();
     fill("blue");
     sphere(valor / 5);
     pop();
+    // Ojo con el pop()
+
 }
 
 function windowResized() {
