@@ -19,7 +19,7 @@ const trabajos = [
     },
     {
         id: 4,
-        photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/Lesbian.webpp",
+        photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/Lesbian.webp",
         title: "The Lesbian Avengers - Infografía + Fanzine + Objeto sobre Movimientos Sociales",
         description: "Proyecto III, con Prof. Clarisa Menteguiaga"
     }
