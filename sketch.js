@@ -5,7 +5,7 @@ const trabajitos = [
         description: "Entrega de Proyecto III, con Prof. Clarisa Menteguiaga...."
     },
     {
-        photo: "https://picsum.photos/id/175/200/300",
+        photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/Magicake.webp",
         title: "MagiCake:Love - Set de cartas",
         description: "Trabajo de Configuración Vi, con Prof. Perea."
     },
