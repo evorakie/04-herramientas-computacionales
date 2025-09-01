@@ -15,7 +15,7 @@ const trabajitos = [
         description: "Trabajo de Configuración Visual I, con Prof. Pradenas."
     },
     {
-        photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/The%20Lesbian%20Avengers.webp",
+        photo: "https://raw.githubusercontent.com/evorakie/04-herramientas-computacionales/refs/heads/main/img/Lesbian.webp",
         title: "The Lesbian Avengers - Infografía + Fanzine + Objeto sobre Movimientos Sociales",
         description: "Trabajo de Configuración Visual I, con Prof. Otro."
     }            
