@@ -19,11 +19,7 @@ const trabajitos = [
         title: "The Lesbian Avengers - Infografía + Fanzine + Objeto sobre Movimientos Sociales",
         description: "Trabajo de Configuración Visual I, con Prof. Otro."
     }            
-]
-
-
-
-
+];
 const datos = [
     {
         id: 1,
@@ -259,17 +255,17 @@ function setup() {
     select("#nombre").html(yo.nombre);
     select("#aprendizaje").html(yo.esperado);
     select("#cuantos").html(otrxs.length);
-    //Lo que sigue es JavaScript a secas
+      //Lo que sigue es JavaScript a secas
     otrxs.forEach((x)=>{
         document.querySelector("#otredad").innerHTML += `<div><a href="${x.cuenta}"><img src="${x.foto}" title="${x.esperado}"></a></div>`;
     });
-    //Copy-paste, y arreglín
-    trabajitos.forEach((x)=>{
+      //Copy-paste, y arreglín
+    trabajos.forEach((x)=>{
         document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
     });
 
-     document.querySelector("#autoria").innerHTML = yp.nombre;
-
+    document.querySelector("#autoria").innerHTML = yo.nombre;
+    
     //Ahora vuelvo al p5.js
     noStroke();
 }
