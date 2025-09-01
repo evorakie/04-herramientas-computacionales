@@ -16,7 +16,7 @@ const trabajitos = [
     },
     {
         photo: "https://picsum.photos/id/104/400/300",
-        title: "The Lesbian Avengers - Infografía + Fanzine sobre Movimientos Sociales",
+        title: "The Lesbian Avengers - Infografía + Fanzine + Objeto sobre Movimientos Sociales",
         description: "Trabajo de Configuración Visual I, con Prof. Otro."
     }            
 ]
