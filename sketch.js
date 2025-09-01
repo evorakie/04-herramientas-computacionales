@@ -1,22 +1,22 @@
 const trabajitos = [
     {
-        photo:
+        photo: "https://picsum.photos/id/151/200/300"
         tittle: "TopCycle - Diseño Residual"
-        description: "Entrega de Proyecto III 
+        description: "Entrega de Proyecto III, con Prof. Clarisa Menteguiaga..."
     },
     {
-        photo:
+        photo: "https://picsum.photos/id/175/200/300"
         tittle: "MagiCake:Love - Set de cartas"
         description: 
     },
     {
-        photo:
-        tittle:
-        description: 
+        photo:"https://picsum.photos/id/252/200/300"
+        tittle: "Sensacional - Identidad de Marca"
+        description: "Propuesta de identidad gráfica 
     },
     {
-        photo:
-        tittle:
+        photo: "https://picsum.photos/id/272/200/300"
+        tittle: "The Lesbian Avengers - Infografía + Fanzine sobre Movimientos Sociales"
         description: 
     },
 
@@ -267,7 +267,11 @@ function setup() {
     //Lo que sigue es JavaScript a secas
     otrxs.forEach((x)=>{
         document.querySelector("#otredad").innerHTML += `<div><a href="${x.cuenta}"><img src="${x.foto}" title="${x.esperado}"></a></div>`;
-    })
+    });
+    //Copy-paste y arreglín
+     trabajitos.forEach((x)=>{
+        document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
+    });
     //Ahora vuelvo al p5.js
     noStroke();
 }
