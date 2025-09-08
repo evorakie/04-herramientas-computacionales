@@ -391,14 +391,13 @@ function draw() {
   
     push();
     fill("black");
-    translate(valor / 10, -valor / 50, 60);  //Ojo Der
-    rotate(radians(150), [1, 0, 0]);
-    torus(16, valor /120);
+    translate(valor / 10, -valor / 40, 70);  //Ojo Der
+    sphere (6)
     pop();
   
     push();
     fill("black");
-    translate(-valor / 10, -valor / 50, 60);  //Ojo Der
+    translate(-valor / 10, -valor / 50, 60);  //Ojo Izq
     rotate(radians(150), [1, 0, 0]);
     torus(16, valor / 120);
     pop();
@@ -423,47 +422,47 @@ function draw() {
    
     push();
     fill("tan");
-    translate(0, -115, -15);     //sombrero
+    translate(0, -115, -15);     //Sombrero Top
     cylinder(70, 40);
     pop();
     
     push();
     fill("tan");      
-    translate(0, -70, -20); //sombrero parte de abajo
+    translate(0, -70, -20); //Sombrero Base
     cylinder(100, 30);
     pop();
   
 
     push();
     fill("blue");
-    translate(0, -90, -15);   //sombrero franja
+    translate(0, -90, -15);   //Franja
     cylinder(75, 10);
     pop();
   
     push();
     fill("white");
-    translate(0, -100, -15);   //sombrero franja
+    translate(0, -100, -15);   /Franja
     cylinder(75, 10);
     pop();
   
     push();
     fill("red");
-    translate(0, -110, -15);   //sombrero franja
+    translate(0, -110, -15);   //Franja
     cylinder(75, 10);
     pop();
   
     push();
-    fill ("rgb(209,79,144)")
+    fill ("rgb(209,79,144)")  //Intento de Corazón
     translate (-12,-200,0)
     sphere(25)
   
     push();
-    fill ("rgb(209,79,144)")
+    fill ("rgb(209,79,144)")   //Intento de Corazón
     translate (30,-0,0)
     sphere(25)
   
     push();
-    fill ("rgb(209,79,144)")
+    fill ("rgb(209,79,144)")   //Intento de Corazón
     translate (-15,35,0)
     cone (25)
 
