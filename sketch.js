@@ -344,7 +344,6 @@ function setup() {
 function draw() {
     background("white");
     orbitControl();
-    pointLight(255, 255, 255, valor / 1, valor / 1, 20);
     specularMaterial(255);
     shininess(200);
     metalness(1);
